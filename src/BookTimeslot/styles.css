@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  color: #555;
+  text-align: center;
+}
+
+button,
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.expert-photo {
+  width: 80%; /* Or set to a fixed value like '200px' */
+  max-width: 200px; /* Max width to prevent it from getting too large */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.expert-profile h2 {
+  color: #007bff;
+}
+
+.expert-profile h4 {
+  color: #333;
+}
+
+.timeslot {
+  margin-top: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+div.timeslot input[type="date"] {
+  width: auto;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+  /transform: scale(1);
+}
